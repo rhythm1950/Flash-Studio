@@ -18,7 +18,7 @@ button {
 	margin: 0;
 }
 
-.container {
+.gallery-container {
 	max-width: 1170px;
 	margin: auto;
 }
@@ -236,21 +236,23 @@ button {
 	padding: 25px 0;
 	display: block;
 	transition: all 0.5s ease;
+	text-transform: uppercase;
 }
 
 .header.fixed .nav ul li a {
 	color: white;
+	text-transform: uppercase;
 }
 
 .header.fixed .nav ul li a:hover,
 .header .nav ul li a:hover {
-	color: black;
+	color: rgb(224, 0, 123);
 }
 
 /* home section */
 .home-section {
 	min-height: 100vh;
-	background-image: url('../img/home-bg.jpg');
+	background-image: url('../img/bg.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -267,7 +269,7 @@ button {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #000000;
+	background-color: #0000009a;
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -415,11 +417,6 @@ button {
 }
 
 /* Service Section */
-
-.service-section {
-	padding: 80px 0 0;
-}
-
 .service-section .service-item {
 	flex: 0 0 33.33%;
 	max-width: 33.33%;
@@ -434,7 +431,7 @@ button {
 .service-section .service-item-inner img {
 	width: 100%;
 	display: block;
-	filter: grayscale(100%);
+	filter: grayscale(20%);
 	transition: all 0.5s ease;
 }
 
@@ -475,11 +472,6 @@ button {
 }
 
 /* Work Section */
-
-.work-section {
-	padding: 80px 0 0;
-}
-
 .work-section .work-item {
 	flex: 0 0 33.33%;
 	max-width: 33.33%;
@@ -958,4 +950,26 @@ i {
 .section-heading {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.projects,
+.gallery {
+	background-color: rgba(248, 248, 248, 0.76);
+}
+
+.gallery-img {
+	height: 190px !important;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	color: #ff0077;
+	border: 1px solid white;
+	margin-top: 5px;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: white;
+	position: relative;
+	cursor: pointer;
 }
