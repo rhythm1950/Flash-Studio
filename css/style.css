@@ -70,11 +70,11 @@ button {
 	bottom: -5px;
 	width: 80px;
 	height: 3px;
-	background-color: #FF9800;
+	background-color: #ff0077;
 }
 
 .btn-01 {
-	background-color: #FF9800;
+	background-color: #ff0077;
 	color: #ffffff;
 	border: 2px solid transparent;
 	padding: 10px 35px;
@@ -90,8 +90,8 @@ button {
 
 .btn-01:hover {
 	background-color: transparent;
-	border-color: #FF9800;
-	color: #FF9800;
+	border-color: #ff0077;
+	color: #ff0077;
 }
 
 .btn-01:focus {
@@ -122,7 +122,7 @@ button {
 .preloader .loader {
 	height: 30px;
 	width: 30px;
-	border: 2px solid #FF9800;
+	border: 2px solid #ff0077;
 	border-right: 2px solid transparent;
 	border-radius: 50%;
 	animation: ani01 2s linear infinite;
@@ -139,7 +139,7 @@ button {
 }
 
 .header.fixed {
-	background-color: #ffffff;
+	background-color: #ff0077;
 	position: fixed;
 }
 
@@ -158,7 +158,7 @@ button {
 }
 
 .header.fixed .brand-name a {
-	color: #000000;
+	color: white;
 }
 
 .header .nav-toggle {
@@ -239,12 +239,12 @@ button {
 }
 
 .header.fixed .nav ul li a {
-	color: #000000;
+	color: white;
 }
 
 .header.fixed .nav ul li a:hover,
 .header .nav ul li a:hover {
-	color: #FF9800;
+	color: black;
 }
 
 /* home section */
@@ -276,7 +276,7 @@ button {
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	border: 2px solid #FF9800;
+	border: 2px solid #ff0077;
 	right: 5%;
 	top: 20%;
 	animation: ani01 5s linear infinite;
@@ -287,16 +287,15 @@ button {
 }
 
 .home-section .home-content {
-	/*background-color: red;*/
 	flex: 0 0 100%;
 	max-width: 100%;
 	text-align: center;
 }
 
 .home-section .home-content h4 {
-	font-size: 20px;
+	font-size: 26px;
 	color: #ffffff;
-	margin: 0;
+	margin: 15px;
 }
 
 .home-section .home-content h1 {
@@ -305,7 +304,6 @@ button {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 900;
-	letter-spacing: 10px;
 }
 
 .home-section .scroll-down {
@@ -362,7 +360,7 @@ button {
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	border: 2px solid #FF9800;
+	border: 2px solid #ff0077;
 	left: 30px;
 	top: 30px;
 	animation: ani01 5s linear infinite;
@@ -883,9 +881,7 @@ button {
 /* Added later */
 
 .cta {
-	background: #ff5f6d;
-	background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
-	background: linear-gradient(to right, #ff5f6d, #ffc371);
+	background: #ff0077;
 	min-height: 40vh;
 	padding-top: 40px;
 	margin-top: 30px;
@@ -893,11 +889,11 @@ button {
 }
 
 #button-addon1 {
-	color: #ffc371;
+	color: #ff0077;
 }
 
 i {
-	color: #ffc371;
+	color: #ff0077;
 }
 
 .form-control::placeholder {
@@ -942,4 +938,24 @@ i {
 .zoom:hover img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+/* Additional by me */
+.contact-box-center {
+	background: #ff0077;
+}
+
+.contact-box-left {
+	background: #ff0077;
+	border-right: 1px solid white;
+}
+
+.contact-box-right {
+	background: #ff0077;
+	border-left: 1px solid white;
+}
+
+.section-heading {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
