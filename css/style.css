@@ -844,7 +844,6 @@ button {
 @media(max-width: 575px) {
 	.home-section .home-content h1 {
 		font-size: 25px;
-		letter-spacing: 5px;
 	}
 
 	.about-section .about-content .stats .stat-box {
@@ -972,4 +971,12 @@ i {
 	background: white;
 	position: relative;
 	cursor: pointer;
+}
+
+.button a {
+	color: #ff0077 !important;
+}
+
+.copyright-link a {
+	color: #ff0077 !important;
 }
