@@ -19,6 +19,11 @@ button {
 	margin: 0;
 }
 
+.section-heading {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -242,6 +247,55 @@ button {
 	font-weight: 900;
 }
 
+/* Contact info */
+.contact-box-center {
+	background: #ff0077;
+}
+
+.contact-box-left {
+	background: #ff0077;
+	border-right: 1px solid white;
+}
+
+.contact-box-right {
+	background: #ff0077;
+	border-left: 1px solid white;
+}
+
+/* About section */
+.b-0 {
+	bottom: 0;
+}
+
+.bg-shadow {
+	background: rgba(76, 76, 76, 0);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
+	background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0);
+}
+
+.top-indicator {
+	right: 0;
+	top: 1rem;
+	bottom: inherit;
+	left: inherit;
+	margin-right: 1rem;
+}
+
+.overflow {
+	position: relative;
+	overflow: hidden;
+}
+
+.zoom img {
+	transition: all 0.2s linear;
+}
+
+.zoom:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 /* Projects section */
 .projects-section .projects-item {
 	flex: 0 0 33.33%;
@@ -297,6 +351,21 @@ button {
 	opacity: 0;
 }
 
+/* Gallery section */
+.gallery-container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.projects,
+.gallery {
+	background-color: rgba(248, 248, 248, 0.76);
+}
+
+.gallery-img {
+	height: 190px !important;
+}
+
 /* Portfolio section */
 .portfolio .portfolio-item {
 	flex: 0 0 33.33%;
@@ -350,6 +419,55 @@ button {
 
 .portfolio .portfolio-item-inner:hover .overlay h4 {
 	transform: translateX(0);
+}
+
+/* Newsletter section */
+.newsletter {
+	background: #ff0077;
+	min-height: 40vh;
+	padding-top: 40px;
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	color: #ff0077;
+	border: 1px solid white;
+	margin-top: 5px;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: white;
+	position: relative;
+	cursor: pointer;
+}
+
+.button a {
+	color: #ff0077 !important;
+}
+
+/* Footer */
+#button-addon1 {
+	color: #ff0077;
+}
+
+i {
+	color: #ff0077;
+}
+
+.form-control::placeholder {
+	font-size: 0.95rem;
+	color: #aaa;
+	font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+	box-shadow: none;
+}
+
+.copyright-link a {
+	color: #ff0077 !important;
 }
 
 /* Responsive style*/
@@ -408,121 +526,4 @@ button {
 	.hero-section .hero-content h1 {
 		font-size: 25px;
 	}
-}
-
-/* Added later */
-.cta {
-	background: #ff0077;
-	min-height: 40vh;
-	padding-top: 40px;
-	margin-top: 30px;
-	padding-bottom: 40px;
-}
-
-#button-addon1 {
-	color: #ff0077;
-}
-
-i {
-	color: #ff0077;
-}
-
-.form-control::placeholder {
-	font-size: 0.95rem;
-	color: #aaa;
-	font-style: italic;
-}
-
-.form-control.shadow-0:focus {
-	box-shadow: none;
-}
-
-/* About section */
-.b-0 {
-	bottom: 0;
-}
-
-.bg-shadow {
-	background: rgba(76, 76, 76, 0);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
-	background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0);
-}
-
-.top-indicator {
-	right: 0;
-	top: 1rem;
-	bottom: inherit;
-	left: inherit;
-	margin-right: 1rem;
-}
-
-.overflow {
-	position: relative;
-	overflow: hidden;
-}
-
-.zoom img {
-	transition: all 0.2s linear;
-}
-
-.zoom:hover img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-/* Additional by me */
-.contact-box-center {
-	background: #ff0077;
-}
-
-.contact-box-left {
-	background: #ff0077;
-	border-right: 1px solid white;
-}
-
-.contact-box-right {
-	background: #ff0077;
-	border-left: 1px solid white;
-}
-
-.section-heading {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.projects,
-.gallery {
-	background-color: rgba(248, 248, 248, 0.76);
-}
-
-.gallery-img {
-	height: 190px !important;
-}
-
-.button {
-	display: inline-block;
-	text-decoration: none;
-	color: #ff0077;
-	border: 1px solid white;
-	margin-top: 5px;
-	padding: 12px 34px;
-	font-size: 13px;
-	background: white;
-	position: relative;
-	cursor: pointer;
-}
-
-.button a {
-	color: #ff0077 !important;
-}
-
-.copyright-link a {
-	color: #ff0077 !important;
-}
-
-/* Gallery section */
-.gallery-container {
-	max-width: 1170px;
-	margin: auto;
 }
