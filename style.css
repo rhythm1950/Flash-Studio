@@ -565,7 +565,3 @@ i {
 	transform: translateX(30px);
 	transition: all 0.5s ease;
 }
-
-.portfolio {
-	transform: translateX(0);
-}
