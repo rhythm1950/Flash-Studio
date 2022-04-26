@@ -566,6 +566,6 @@ i {
 	transition: all 0.5s ease;
 }
 
-.portfolio .portfolio-item-inner:hover .overlay h4 {
+.portfolio .portfolio-item-inner:hover {
 	transform: translateX(0);
 }
