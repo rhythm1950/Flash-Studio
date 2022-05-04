@@ -563,5 +563,5 @@ i {
 	font-size: 20px;
 	margin: 0;
 	transform: translateX(30px);
-	transition: all 0.5s;
+	transition: 0.5s;
 }
