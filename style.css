@@ -561,6 +561,4 @@ i {
 .portfolio .portfolio-item-inner .overlay h4 {
 	color: #ffffff;
 	font-size: 20px;
-	margin: 0;
-	transform: translateX(30px);
 }
