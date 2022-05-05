@@ -554,6 +554,6 @@ i {
 	opacity: 0;
 }
 
-.portfolio .portfolio-item-inner:hover .overlay {
+.portfolio .portfolio-item-inner:hove {
 	opacity: 1;
 }
