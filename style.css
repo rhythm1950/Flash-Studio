@@ -614,7 +614,3 @@ i {
 .form-control.shadow-0:focus {
 	box-shadow: none;
 }
-
-.copyright-link a {
-	color: #66575e;
-}
