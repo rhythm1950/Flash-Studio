@@ -540,6 +540,6 @@ i {
 	overflow: hidden;
 }
 
-.portfolio .portfolio-item-inner {
+.portfolio {
 	position: absolute;
 }
