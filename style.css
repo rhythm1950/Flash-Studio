@@ -534,6 +534,6 @@ i {
 	transform: scale(1);
 }
 
-.portfolio .portfolio-item-inner {
+.portfolio {
 	position: relative;
 }
