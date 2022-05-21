@@ -531,5 +531,4 @@ i {
 
 .portfolio .portfolio-item-inner:hover img {
 	filter: grayscale(100%);
-	transform: scale(1);
 }
