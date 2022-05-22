@@ -610,7 +610,3 @@ i {
 	color: #aaa;
 	font-style: italic;
 }
-
-.form-control.shadow-0:focus {
-	box-shadow: none;
-}
