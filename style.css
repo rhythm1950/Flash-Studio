@@ -661,6 +661,6 @@ i {
 }
 
 /* Portfolio section */
-.portfolio .portfolio-item {
+.portfolio {
 	flex: 0 0 33.33%;
 }
