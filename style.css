@@ -528,8 +528,3 @@ i {
 	transform: scale(1.1);
 	transition: all 0.5s;
 }
-
-/* Gallery section */
-.gallery-container {
-	max-width: 1170px;
-}
