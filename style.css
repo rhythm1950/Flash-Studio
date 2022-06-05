@@ -604,7 +604,3 @@ i {
 i {
 	color: #ff0077;
 }
-
-.form-control::placeholder {
-	font-size: 0.95rem;
-}
