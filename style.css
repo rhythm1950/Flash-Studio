@@ -527,7 +527,3 @@ i {
 .hero-section .hero-content h1 {
 	font-size: 40px;
 }
-
-.projects-section {
-	flex: 0 0 50%;
-}
