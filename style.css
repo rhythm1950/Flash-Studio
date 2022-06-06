@@ -534,6 +534,4 @@ i {
 	max-width: 50%;
 }
 
-@media(max-width: 575px) {
-	.hero-section .hero-content h1 {}
-}
+@media(max-width: 575px) {}
