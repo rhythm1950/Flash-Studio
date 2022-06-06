@@ -528,6 +528,6 @@ i {
 	font-size: 40px;
 }
 
-.projects-section .projects-item {
+.projects-section {
 	flex: 0 0 50%;
 }
