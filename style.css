@@ -497,33 +497,3 @@ i {
 		font-size: 25px;
 	}
 }
-
-
-/* ----------- */
-/* Gallery */
-.header .nav {
-	flex: 0 0 100%;
-	max-width: 100%;
-	background-color: #ffffff;
-	padding: 0;
-	display: none;
-}
-
-.header.fixed .nav {
-	border-top: 1px solid #cccccc;
-}
-
-.header .nav ul li {
-	display: block;
-	margin-right: 25px;
-}
-
-.header.fixed .nav ul li a,
-.header .nav ul li a {
-	color: #000000;
-	padding: 15px 0;
-}
-
-.hero-section {
-	font-size: 40px;
-}
