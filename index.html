@@ -1,44 +1,661 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
+<html>
 
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <!-- Swiper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+	<!-- Bootstrap css cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Swiper Vertical Slider</title>
-  </head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-  <body>
-    <section class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./img/10.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/9.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/8.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/7.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/6.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/5.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/4.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/3.jpg" alt="slide" /></div>
-        <div class="swiper-slide"><img src="./img/2.jpg" alt="slide" /></div>
-      </div>
+	<title>Flash Studio</title>
+</head>
 
-      <div class="swiper-pagination"></div>
-    </section>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="brand-name">
+					<a href="index.html">Flash.</a>
+				</div>
+				<div class="nav-toggle">
+					<span></span>
+				</div>
+				<nav class="nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#projects">Our Projects</a></li>
+						<li><a href="#why-us">Why Choose Us</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#newsletter">Newsletter</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<main>
+		<!-- Hero section -->
+		<section class="hero-section" id="home">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="hero-content">
+						<h4>We Click Awesome Photography</h4>
+						<h1>Welcome To Flash Studio</h1>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <script src="main.js"></script>
-  </body>
+		<!-- Contact info -->
+		<section class="container-fluid contact-info mb-4">
+			<div class="container" style="padding: 0 30px;">
+
+				<div class="row">
+
+					<div class="col-md-4 d-flex align-items-center justify-content-center contact-box-left mb-4 mb-lg-0"
+						style="height: 100px;">
+						<div class="d-inline-flex">
+							<i class="fa fa-2x fa-map text-white m-0 mr-3"></i>
+							<div class="d-flex flex-column">
+								<h5 class="text-white font-weight-medium">Our Location</h5>
+								<p class="m-0 text-white">123 Street, New York, USA</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex align-items-center justify-content-center contact-box-center mb-4 mb-lg-0"
+						style="height: 100px;">
+						<div class="d-inline-flex text-left">
+							<i class="fa fa-2x fa-envelope text-white m-0 mr-3"></i>
+							<div class="d-flex flex-column">
+								<h5 class="text-white font-weight-medium">Email Us</h5>
+								<p class="m-0 text-white">info@example.com</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex align-items-center justify-content-center contact-box-right mb-4 mb-lg-0"
+						style="height: 100px;">
+						<div class="d-inline-flex text-left">
+							<i class="fa fa-2x fa-mobile text-white m-0 mr-3"></i>
+							<div class="d-flex flex-column">
+								<h5 class="text-white font-weight-medium">Call Us</h5>
+								<p class="m-0 text-white">+012 345 6789</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- About section -->
+		<section class="pb-5" id="about">
+			<div class="container-fluid py-5">
+				<div class="container pt-0 pt-lg-4">
+					<div class="row align-items-center">
+
+						<div class="col-lg-5">
+							<img class="img-fluid" src="./img/img.jpg" alt="flash-studio">
+						</div>
+
+						<div class="col-lg-7 mt-5 mt-lg-0 pl-lg-5">
+							<h6 class="text-secondary text-uppercase font-weight-medium mb-3">Flash Studio</h6>
+							<h1 class="mb-4">We Capture High Quality Pictures Around The World</h1>
+							<p class="mb-2">Flash Studio started its journey in 27th October, 2015. Till now we have
+								been
+								providing high quality service to our clients. We have our team all over the world. We
+								capture your memories and make them lively forever.</p>
+
+							<div class="row">
+
+								<div class="col-sm-6 pt-3">
+									<div class="d-flex align-items-center">
+										<i class="fa fa-check mr-2"></i>
+										<p class="text-secondary font-weight-medium m-0">High Quality Photography</p>
+									</div>
+								</div>
+
+								<div class="col-sm-6 pt-3">
+									<div class="d-flex align-items-center">
+										<i class="fa fa-check mr-2"></i>
+										<p class="text-secondary font-weight-medium m-0">Creative Photography</p>
+									</div>
+								</div>
+
+								<div class="col-sm-6 pt-3">
+									<div class="d-flex align-items-center">
+										<i class="fa fa-check mr-2"></i>
+										<p class="text-secondary font-weight-medium m-0"> Professional Photography</p>
+									</div>
+								</div>
+
+								<div class="col-sm-6 pt-3">
+									<div class="d-flex align-items-center">
+										<i class="fa fa-check mr-2"></i>
+										<p class="text-secondary font-weight-medium m-0">100% Satisfaction Guarantee</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects Section -->
+		<section class="projects-section projects pt-5 pb-5" id="projects">
+			<div class="container">
+
+				<div class="row mb-2 section-heading">
+					<div class="col-12 text-center">
+						<h1>Our Projects</h1>
+						<p>We love to click lively pictures around the world</p>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="projects-item">
+						<div class="projects-item-inner">
+							<img src="./img/15.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Wedding Photography</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects-item">
+						<div class="projects-item-inner">
+							<img src="./img/17.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Portrait Photography</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects-item">
+						<div class="projects-item-inner">
+							<img src="./img/16.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Fashion Photography</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects-item">
+						<div class="projects-item-inner">
+							<img src="./img/18.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Travel Photography</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects-item">
+						<div class="projects-item-inner">
+							<img src="./img/19.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Anniversary Photography</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects-item">
+						<div class="projects-item-inner">
+							<img src="./img/20.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Event Photography</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Why Us section section -->
+		<section class="pb-5" id="why-us">
+			<div class="container-fluid pt-5 pb-3">
+				<div class="container">
+
+					<div class="row mb-2 section-heading">
+						<div class="col-12 text-center pt-3">
+							<h1>Why Choose Us</h1>
+							<p>We love to click lively pictures around the world</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-3 col-md-6 pb-1">
+							<div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+								style="height: 300px;">
+								<div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+									style="width: 100px; height: 100px;">
+									<i class="fa fa-camera" style="font-size: 35px;"></i>
+								</div>
+								<h4 class="font-weight-bold m-0">Creative</h4>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 pb-1">
+							<div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+								style="height: 300px;">
+								<div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+									style="width: 100px; height: 100px;">
+									<i class="fa fa-image" style="font-size: 35px;"></i>
+								</div>
+								<h4 class="font-weight-bold m-0">Editing</h4>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 pb-1">
+							<div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+								style="height: 300px;">
+								<div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+									style="width: 100px; height: 100px;">
+									<i class="fa fa-bolt" style="font-size: 35px;"></i>
+								</div>
+								<h4 class="font-weight-bold m-0">Marvellous</h4>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 pb-1">
+							<div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
+								style="height: 300px;">
+								<div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
+									style="width: 100px; height: 100px;">
+									<i class="fa fa-heart" style="font-size: 35px;"></i>
+								</div>
+								<h4 class="font-weight-bold m-0">Support</h4>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Gallery section -->
+		<section class="gallery pt-5" id="gallery">
+			<div class="gallery-container">
+
+				<div class="row mb-2 section-heading">
+					<div class="col-12 text-center pt-3">
+						<h1>Our Gallery</h1>
+						<p>We love to click lively pictures around the world</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 pb-5">
+
+						<section class="row">
+
+							<div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+								<div id="featured" class="carousel slide carousel" data-ride="carousel">
+
+									<ol class="carousel-indicators top-indicator">
+										<li data-target="#featured" data-slide-to="0" class="active"></li>
+										<li data-target="#featured" data-slide-to="1"></li>
+										<li data-target="#featured" data-slide-to="2"></li>
+										<li data-target="#featured" data-slide-to="3"></li>
+									</ol>
+
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<div class="card border-0 rounded-0 text-light overflow zoom">
+												<div class="position-relative">
+													<div class="ratio_left-cover-1 image-wrapper">
+														<a href="#">
+															<img class="img-fluid w-100" src="./img/7.jpg"
+																alt="Merzouga, Marokko">
+														</a>
+													</div>
+													<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+														<a href="#">
+															<h2 class="h3 post-title text-white my-1">Merzouga, Marokko
+															</h2>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="carousel-item">
+											<div class="card border-0 rounded-0 text-light overflow zoom">
+												<div class="position-relative">
+													<div class="ratio_left-cover-1 image-wrapper">
+														<a href="#">
+															<img class="img-fluid w-100" src="./img/8.jpg"
+																alt="Quảng Ninh, Vietnam">
+														</a>
+													</div>
+													<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+														<a href="#">
+															<h2 class="h3 post-title text-white my-1">Quảng Ninh,
+																Vietnam
+															</h2>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="carousel-item">
+											<div class="card border-0 rounded-0 text-light overflow zoom">
+												<div class="position-relative">
+													<div class="ratio_left-cover-1 image-wrapper">
+														<a href="#">
+															<img class="img-fluid w-100" src="./img/9.jpg"
+																alt="Los Angeles, USA">
+														</a>
+													</div>
+													<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+														<a href="#">
+															<h2 class="h3 post-title text-white my-1">Los Angeles, USA
+															</h2>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="carousel-item">
+											<div class="card border-0 rounded-0 text-light overflow zoom">
+												<div class="position-relative">
+													<div class="ratio_left-cover-1 image-wrapper">
+														<a href="#">
+															<img class="img-fluid w-100" src="./img/10.jpg"
+																alt="Alappuzha, India">
+														</a>
+													</div>
+													<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+														<a href="#">
+															<h2 class="h3 post-title text-white my-1">Alappuzha, India
+															</h2>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+
+							<div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+								<div class="row">
+
+									<div class="col-6 pb-1 pt-0 pr-1">
+										<div class="card border-0 rounded-0 text-white overflow zoom">
+											<div class="position-relative">
+												<div class="ratio_right-cover-2 image-wrapper">
+													<a href="#">
+														<img class="img-fluid gallery-img" src="./img/11.jpg"
+															alt="Hovden, Norway">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<a href="#">
+														<h2 class="h5 text-white my-1">Hovden, Norway</h2>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-6 pb-1 pl-1 pt-0">
+										<div class="card border-0 rounded-0 text-white overflow zoom">
+											<div class="position-relative">
+												<div class="ratio_right-cover-2 image-wrapper">
+													<a href="#">
+														<img class="img-fluid gallery-img" src="./img/12.jpg"
+															alt="Kyoto, Japan">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<a href="#">
+														<h2 class="h5 text-white my-1">Kyoto, Japan</h2>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-6 pb-1 pr-1 pt-1">
+										<div class="card border-0 rounded-0 text-white overflow zoom">
+											<div class="position-relative">
+												<div class="ratio_right-cover-2 image-wrapper">
+													<a href="#">
+														<img class="img-fluid gallery-img" src="./img/13.jpg"
+															alt="Abruzzo, Italia">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<a href="#">
+														<h2 class="h5 text-white my-1">Abruzzo, Italia</h2>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-6 pb-1 pl-1 pt-1">
+										<div class="card border-0 rounded-0 text-white overflow zoom">
+											<div class="position-relative">
+												<div class="ratio_right-cover-2 image-wrapper">
+													<a href="#">
+														<img class="img-fluid gallery-img" src="./img/14.jpg"
+															alt="Rural Life in Norway">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<a href="#">
+														<h2 class="h5 text-white my-1">Rural Life in Norway</h2>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Portfolio section -->
+		<section class="portfolio pt-5 pb-5" id="portfolio">
+			<div class="container">
+
+				<div class="row mb-2 section-heading">
+					<div class="col-12 text-center pt-3">
+						<h1>Our Portfolio</h1>
+						<p>We love to click lively pictures around the world</p>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-inner">
+							<img src="img/1.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Arnarstapi, Islande</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-inner">
+							<img src="img/2.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Vereinigtes Königreich</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-inner">
+							<img src="img/3.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Kyoto, Japan</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-inner">
+							<img src="img/4.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>West Vancouver, Canada</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-inner">
+							<img src="img/5.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Agra, India</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-inner">
+							<img src="img/6.jpg" alt="flash-studio">
+							<div class="overlay">
+								<h4>Niagara Waterfall</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Newsletter section -->
+		<section class="d-flex flex-column newsletter" id="newsletter">
+			<div class="container-fluid flex-grow-1 flex-shrink-0">
+				<div class="px-lg-5">
+
+					<div class="row py-5">
+						<div class="col-lg-12 mx-auto text-white text-center">
+							<h1 class="display-4">Subscribe To Newsletter</h1>
+							<p class="lead mb-0">Subscribe our newsletter today to get the latest updates</p>
+							<p class="lead">Hire us for your photography events
+							</p>
+							<button type="button" class=" button"><a href="https://shahriarrhythm.com/">Contact Us</a>
+							</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-white">
+		<div class="container py-5">
+
+			<div class="row py-4">
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="flash-studio" width="180"
+						class="mb-3">
+					<p class="text-muted">Flash Studio is working diligently to the clients' projects since
+						2015. We are here to make your memories colourful.</p>
+					<ul class="list-inline mt-4">
+						<li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+									class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+									class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+									class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+									class="fa fa-pinterest"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+									class="fa fa-vimeo"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+					<h6 class="text-uppercase font-weight-bold mb-4">Quick Links</h6>
+					<ul class="list-unstyled mb-0">
+						<li class="mb-2"><a href="#home" class="text-muted">Home</a></li>
+						<li class="mb-2"><a href="#about" class="text-muted">About Us</a></li>
+						<li class="mb-2"><a href="#projects" class="text-muted">Our Projects</a></li>
+						<li class="mb-2"><a href="#why-us" class="text-muted">Why Choose Us</a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+					<h6 class="text-uppercase font-weight-bold mb-4">Quick Links</h6>
+					<ul class="list-unstyled mb-0">
+						<li class="mb-2"><a href="#gallery" class="text-muted">Our Gallery</a></li>
+						<li class="mb-2"><a href="#portfolio" class="text-muted">Portfolio</a></li>
+						<li class="mb-2"><a href="#newsletter" class="text-muted">Newsletter</a></li>
+						<li class="mb-2"><a href="#projects" class="text-muted">Our Projects</a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mb-lg-0">
+					<h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+					<p class="text-muted mb-4">Subscribe to our newsletter today to get our latest offers and updates
+					</p>
+					<div class="p-1 rounded border">
+						<div class="input-group">
+							<input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+								class="form-control border-0 shadow-0">
+							<div class="input-group-append">
+								<button id="button-addon1" type="submit" class="btn btn-link"><i
+										class="fa fa-paper-plane"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Copyrights -->
+		<div class="bg-light py-4">
+			<div class="container text-center">
+				<p class="text-muted mb-0 py-2 copyright-link">2020 © <a href="https://shahriarrhythm.com/">Shahriar
+						Rhythm.</a> All
+					rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Jquery files -->
+	<script src="js/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap js cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+	<!-- Custom js file -->
+	<script src="js/main.js"></script>
+</body>
+
 </html>
