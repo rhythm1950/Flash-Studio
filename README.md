@@ -25,5 +25,5 @@ This is a website of a photography studio. I have developed it using HTML, CSS, 
 
 
 ### Website Preview:
-<img src="./assets/img/Flash-Studio.png" alt="Flash-Studio">
+<img src="./img/Flash-Studio.png" alt="Flash-Studio">
 
